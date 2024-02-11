@@ -3,23 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Import Question</title>
+    <title>VENESAA JOSEVSKAA</title>
     <link rel="stylesheet" href="./public/css/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
+      <audio controls autoplay loop id="background-sound">
+        <source src="./public/sounds/background.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="sound">
+        <source src="./public/sounds/no1.mp3" type="audio/mp3">
+      </audio>
+      <audio id="soundYes">
+        <source src="./public/sounds/yes.mp3" type="audio/mp3">
+      </audio>
       <div class="banner-gif">
-        <img id="banner" src="./public/images/mid.gif" alt="banner" />
+        <img id="banner" src="./public/images/spongebobe.gif" alt="banner" />
       </div>
       <h1>Will you be my valentine?</h1>
+      <h2 id="message2">Pusti zvuk</h2>
       <div class="buttons">
-        <button id="yes-button"><p>Yes</p></button>
-        <button id="no-button"><p>No</p></button>
+        <button id="yes-button"><p>DA</p></button>
+        <button id="no-button"><p>Ne</p></button>
       </div>
-      <div class="message">
-        <h2>Yepppie, see you sooonnn :3</h2>
-        
-        <h6>Creator: @aayushh.hhhh</h6>
+    </div>
+    <div id="heart-container">
+      <img src="./public/images/heart.svg" alt="Heart" id="heart" class="heart-svg" />
+      <div class="poraka">
+        <h1>Yeeeee huhu.</h1>
+        <p>ps. ne e krindzz</p>
+        <p>klinki bilo kaj za surpise</p>
       </div>
     </div>
     <script src="./public/js/script.js"></script>
